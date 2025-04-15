@@ -126,7 +126,7 @@ export default function TestimonialCarousel1() {
                     : index < currentIndex
                       ? "opacity-0 -translate-x-full z-0"
                       : "opacity-0 translate-x-full z-0"
-                }${
+                } ${
                     index === 0 ? 'relative' : 'absolute left-0 top-0'
                 }`}
                 style={{
@@ -137,7 +137,7 @@ export default function TestimonialCarousel1() {
                         ? "translateX(-100%)"
                         : "translateX(100%)",
                   opacity: currentIndex === index ? 1 : 0,
-                  position: "relative",
+                  // position: "relative",
                 }}
               >
                 <div className="w-full md:w-1/2 bg-blue-500 rounded-lg">
